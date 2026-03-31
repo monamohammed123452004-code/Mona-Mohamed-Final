@@ -1,0 +1,38 @@
+body {
+      background-color: #0f172a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      transition: background 0.4s, color 0.4s;
+    }
+    body.dark { background-color: #121212; color: #fff; }
+
+    header, footer { transition: background 0.4s; }
+    header { background-color: #020617; }
+    body.dark header { background-color: #1e1e1e; }
+    footer { background-color: #020617; }
+    body.dark footer { background-color: #1e1e1e; }
+
+    a { color: #0ef; transition: color 0.4s; }
+    a:hover { color: #00c6ff; }
+
+    .btn-primary { background-color: #0ef; border: none; color: #000; transition: all 0.3s; }
+    .btn-primary:hover { background-color: #00c6ff; color: #000; }
+
+    .card { background-color: #1a1a1a; color: #fff; transition: all 0.4s; border: none; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,198,255,0.3); }
+
+    #themeToggle { cursor: pointer; transition: all 0.3s; }
+    #themeToggle i { font-size: 1.3rem; transition: transform 0.3s; }
+    #themeToggle:hover i { transform: rotate(20deg); color: #00c6ff; }
+
+    .home-img { width: 350px; height: 350px; object-fit: cover; border-radius: 50%; border: 5px solid #0ef; box-shadow: 0 0 40px rgba(0, 123, 255, 0.7); transition: all 0.4s; }
+
+    section { padding: 80px 0; }
+
+    h1 { margin-bottom: 20px; opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+    p { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+    img { opacity: 0; transform: scale(0.8); transition: all 0.8s ease-out; }
+
+    .visible { opacity: 1 !important; transform: translateY(0) scale(1) !important; }
+
+    .text-primary { color: #0ef !important; }

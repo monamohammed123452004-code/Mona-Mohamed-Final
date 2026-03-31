@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mona Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <!--typed-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-primary" href="./index.html"> Eng.Mona</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-primary" href="./home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-primary " href="./about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="./projects.html">Projects</a></li>
+            </ul>
+<button id="darkModeToggle" class="dark-btn">🌙</button>
+</div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="hero">
+    <div class="container text-center">
+      <img src="./images/WhatsApp Image 2026-03-12 at 11.00.25 PM (1).jpeg" class="profile-img">
+        <h1>Hello, I'm Mona 👋</h1>
+        <h2>And I am <span class="text"></span></h2>
+        <p class="mt-3">I design modern and responsive websites.</p>
+<a href="#projects" class="btn btn-custom mt-3">View My Work</a>
+    </div>
+</section>
+
+<section id="projects" class="py-5 ">
+    <div class="container">
+        <h2 class="text-center mb-5">My Projects</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="./images/WhatsApp Image 2026-03-31 at 1.18.49 AM.jpeg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Project 1</h5>
+                        <p>Simple website design</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="./images/WhatsApp Image 2026-03-31 at 1.18.34 AM.jpeg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Project 2</h5>
+                        <p>Responsive landing page</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="./images/WhatsApp Image 2026-03-31 at 1.18.19 AM.jpeg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5>Project 3</h5>
+                        <p>Portfolio website</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="contact" class="py-5 bg-dark text-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Contact Me</h2>
+    
+    <form id="contactForm" class="mx-auto" style="max-width:600px;">
+      <div class="mb-3 form-floating">
+        <input type="text" class="form-control neon-input" id="name" placeholder="Your Name" required>
+        <label for="name">Your Name</label>
+      </div>
+
+      <div class="mb-3 form-floating">
+        <input type="email" class="form-control neon-input" id="email" placeholder="Your Email" required>
+        <label for="email">Your Email</label>
+      </div>
+
+      <div class="mb-3 form-floating">
+        <textarea class="form-control neon-input" id="message" placeholder="Your Message" style="height:150px" required></textarea>
+        <label for="message">Your Message</label>
+      </div>
+
+      <button type="submit" class="btn btn-info w-100 neon-btn">Send Message</button>
+      <p id="result" class="text-center mt-3"></p>
+    </form>
+  </div>
+</section>
+<footer class="footer-section py-5">
+    <div class="container text-center">
+
+        <h4 class="mb-3">Let's Connect</h4>
+
+        <div class="social-icons mb-4">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/monamohammed123452004-code" class="social"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mona-mohammed-98a948332" class="social"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <p class="mb-0">© 2026 All Rights Reserved|Made by Mona Mo7amed❤️</p>
+    </div>
+</footer>
+<button id="topBtn" class="top-button" title="Go to top">⬆️</button>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
